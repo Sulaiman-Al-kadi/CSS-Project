@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+
+nav{
+    
+    background-color: rgb(38, 170, 170);
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+    /* border-right: 1px solid #000000; */
+    font-size: 1.4rem;
+    padding: 0.5em;     
+}
+li a{
+color: aliceblue;
+text-decoration: none;
+}
+li a:hover {
+    background-color: #392b7a;
+    padding:inherit
+  }
+body{
+    background-image: url(/img/8254540.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y:center;    
+}
+/* .sub-now-label{     
+    padding: 1em;
+    margin: 1em;
+    margin-left: 43em;
+    margin-right: 43em;
+     margin-top: 14em;
+}  */
+.sub-now{
+    /* CSS just to show the bounds */
+    padding: 1em;
+    margin: 1em;
+    margin-left: 30em;
+    margin-right: 30em;
+     margin-top: 14em;
+
+}
+#sub-now-lable{
+    
+  font-weight: 700;
+  font-size: 5.225em;  
+  color: #6442ff;
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+#sub-btn{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0em 38em 0em 38em;
+    background-color: #6442ff;
+    border-radius: 10px;
+}
+#sub-btn h3{
+    font-size: 2.7em;
+    color: aliceblue;
+}
+#sub-btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#sub-btn a:hover{
+transition: 0.07ms;
+}
